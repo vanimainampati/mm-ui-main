@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-1 navmenus">
+    <nav class="nav flex-column">
+      <a class="nav-link" routerLink="/add-product">Add New Product</a>
+      <a class="nav-link" routerLink="/cart">Cart</a>
+      <a class="nav-link" routerLink="/place-order">Place Order</a>
+      <a class="nav-link" routerLink="/pendingorders">My Order</a>
+      <a class="nav-link" routerLink="/damage-deduction">Damage Deduction</a>
+    </nav>
+
+  </div>
+      <div class="col-11">
+          <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                  <router-outlet></router-outlet>
+              </div>
+          </div>
+      </div>
+<!--  <app-requesterdetails></app-requesterdetails>-->
+</div>

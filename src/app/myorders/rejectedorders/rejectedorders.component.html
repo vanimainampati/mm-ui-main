@@ -1,0 +1,28 @@
+<p-tabMenu [model]="items" [activeItem]="activeItem"></p-tabMenu>
+<p-table [value]="orderedProducts" [rowsPerPageOptions]="[10,25,50]" 
+[rows]="10" [showCurrentPageReport]="true"
+[paginator]="true" currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries">
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Order NO</th>
+        <th>Requested By</th>
+        <th>Request Department</th>
+        <th>Request Section</th>
+        <th>Order Type</th>
+        <th pSortableColumn="issuedate">Requested On<p-sortIcon field="type"></p-sortIcon></th>
+        <th>Status</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-order>
+      <tr>
+        <td>{{order.reqnbr}}</td>
+        <td>{{order.username}}</td>
+        <td>{{order.reqdept}}</td>
+        <td>{{order.reqsect}}</td>
+        <td>{{order.ordertype }}</td>
+        <td>{{order.issuedate  | date: 'dd/MM/yyyy, h:mm a'}}</td>
+        <td><span class="ui-state-highlight"> {{order.status }}</span></td>
+      </tr>
+    </ng-template>
+  </p-table>
+  

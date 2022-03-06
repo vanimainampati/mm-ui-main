@@ -1,0 +1,112 @@
+<div class="timeline">
+  <br>
+  <br>
+  <div>
+    <h4>{{reqnbr}}</h4>
+  </div>
+  <!--  <span *ngFor="let item of counts;let i = index">-->
+  <!--      <span class="circle-desc" [class.circle-desc-active]="orderStatus == item">{{ item }}</span>-->
+  <!--      <span class="circles" [class.active]="orderStatus == item"></span>-->
+  <!--      <span class="bar" *ngIf="(i != counts.length-1)"></span>-->
+  <!--    </span>-->
+
+  <p-steps [model]="items" [(activeIndex)]="activeIndex"></p-steps>
+  <br>
+</div>
+
+<div class="container">
+
+  <h5>Requester Details</h5>
+  <div class="row">
+    <div class="col">
+      Requested On
+    </div>
+    <div class="col">
+      <span> &#58; {{requests.requestedon | date: 'dd/MM/yyyy'}}</span>
+    </div>
+    <div class="col">
+      Request Department
+    </div>
+    <div class="col">
+      <span>&#58; {{requests.requestdept}}</span>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col">
+      Line
+    </div>
+    <div class="col">
+      <span>&#58; {{requests.line}} </span>
+    </div>
+
+    <div class="col">
+      Request By
+    </div>
+    <div class="col">
+      <span>&#58; {{requests.requestedby}} </span>
+    </div>
+
+  </div>
+
+
+  <div class="row">
+    <div class="col">
+      Request Section
+    </div>
+
+    <div class="col">
+      <span> &#58; {{requests.requestsec}} </span>
+    </div>
+
+    <div class="col">
+      Order Type
+    </div>
+
+    <div class="col">
+      <span> &#58; {{requests.ordertype}} </span>
+    </div>
+
+  </div>
+  <hr>
+  
+  <h5>Order Summary </h5>
+
+  <p-table [value]="orders" responsiveLayout="scroll" class="orders-table" [paginator]="true" [rows]="5"
+           [showCurrentPageReport]="true">
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Item Name</th>
+        <th>Category</th>
+        <th>Type</th>
+        <th>Length</th>
+        <th>Dia(mm)</th>
+        <th>Drive Size</th>
+        <th>Order Quantity</th>
+
+
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-order>
+      <tr>
+        <td>{{order.productname}}</td>
+        <td>{{order.catogery}}</td>
+        <td>{{order.type}}</td>
+        <td>{{order.length}}</td>
+        <td>{{order.dia}}</td>
+        <td>{{order.drive}}</td>
+        <td>{{order.orderqty}}</td>
+
+      </tr>
+    </ng-template>
+  </p-table>
+  <!--
+        <h6>Comments</h6>
+          <textarea pInputTextarea></textarea> -->
+  <div class="buttons">
+    <button pButton type="button" label="Reject" class="p-button-outlined p-button-sm"></button>
+    <button style="margin-left: 25cm" pButton type="button" label="Acknowledge" (click)="acknowledge()"
+            class="p-button-secondary p-button-sm"></button>
+  </div>
+</div>

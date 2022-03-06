@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "item_name": "Phillips Bit",
+            "category": "Accessories",
+            "type": "Main Line + Repair Spare",
+            "part_number": "GT710201903150052",
+            "totalQuantity": "200"
+        },
+        {
+            "item_name": "FUNNEL WITH FILTERt",
+            "category": "Accessories",
+            "type": "Repair Miscellaneous Tools",
+            "part_number": "GT710201903150052",
+            "totalQuantity": "300"
+        },
+        {
+            "item_name": "MULTIMETER",
+            "category": "Accessories",
+            "type": "Accessories",
+            "part_number": "GT710201903150052",
+            "totalQuantity": "400"
+        },
+        {
+            "item_name": "Locking wheel nut removal sockets",
+            "category": "Accessories",
+            "type": "Main Line + Repair Spare",
+            "part_number": "GT710201903150052",
+            "totalQuantity": "500"
+        }
+    ]
+}

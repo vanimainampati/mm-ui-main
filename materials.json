@@ -1,0 +1,195 @@
+{
+  "materials": [
+    {
+      "id": 1,
+      "item": "Rosemary Harvey",
+      "category": "Accessories",
+      "type": "Ratchet Tool Cover",
+      "length": "100mm",
+      "dia": "PH2",
+      "drive": "1/4",
+      "quantity": 50
+    },
+    {
+      "id": 2,
+      "item": "FUNNEL WITH FILTER",
+      "category": "Accessories",
+      "type": "Repair Miscellaneous Tools",
+      "length": "Plastic Type",
+      "dia": "-",
+      "drive": "-",
+      "quantity": 120
+    },
+    {
+      "id": 3,
+      "item": "SH-N OPEN END WITH NOTCH INTERCHANGEABLE HEAD",
+      "category": "Accessories",
+      "type": "Flare Nut End Fittings",
+      "length": "SH12DX12",
+      "dia": "-",
+      "drive": "-",
+      "quantity": 50
+    },
+    {
+      "id": 4,
+      "item": "TORX KEY SET SOCKET TYPE",
+      "category": "Accessories",
+      "type": "Keeper and repair tools",
+      "length": "-",
+      "dia": "-",
+      "drive": "-",
+      "quantity": 60
+    },
+    {
+      "id": 5,
+      "item": "PROTECTION COVER FOR URYU URW 80R",
+      "category": "Accessories",
+      "type": "Ratchet Tool Cover",
+      "length": "100mm",
+      "dia": "-",
+      "drive": "1/4",
+      "quantity": 60
+    },
+    {
+      "id": 6,
+      "item": "MULTIMETER",
+      "category": "Accessories",
+      "type": "Accessories",
+      "length": "FLUKE 179- ",
+      "dia": "-",
+      "drive": "-",
+      "quantity": 10
+    },
+    {
+      "id": 7,
+      "item": "MULTIMETER",
+      "category": "Accessories",
+      "type": "Accessories",
+      "length": "FLUKE 179- ",
+      "dia": "-",
+      "drive": "-",
+      "quantity": 10
+    },
+    {
+      "id": 8,
+      "item": "FUNNEL WITH FILTER",
+      "category": "Accessories",
+      "type": "Repair Miscellaneous Tools",
+      "length": "Plastic Type",
+      "dia": "-",
+      "drive": "-",
+      "quantity": 20
+    },
+    {
+      "id": 10,
+      "item": "PROTECTION COVER FOR URYU URW 80R",
+      "category": "Accessories",
+      "type": "Ratchet Tool Cover",
+      "length": "100mm",
+      "dia": "-",
+      "drive": "1/4",
+      "quantity": 60
+    },
+    {
+      "id": 1,
+      "item": "Rosemary Harvey",
+      "category": "Accessories",
+      "type": "Ratchet Tool Cover",
+      "length": "100mm",
+      "dia": "PH2",
+      "drive": "1/4",
+      "quantity": 50
+    },
+    {
+      "id": 2,
+      "item": "FUNNEL WITH FILTER",
+      "category": "Accessories",
+      "type": "Repair Miscellaneous Tools",
+      "length": "Plastic Type",
+      "dia": "-",
+      "drive": "-",
+      "quantity": 20
+    },
+    {
+      "id": 3,
+      "item": "SH-N OPEN END WITH NOTCH INTERCHANGEABLE HEAD",
+      "category": "Accessories",
+      "type": "Flare Nut End Fittings",
+      "length": "SH12DX12",
+      "dia": "-",
+      "drive": "-",
+      "quantity": 50
+    },
+    {
+      "id": 4,
+      "item": "TORX KEY SET SOCKET TYPE",
+      "category": "Accessories",
+      "type": "Keeper and repair tools",
+      "length": "-",
+      "dia": "-",
+      "drive": "-",
+      "quantity": 60
+    },
+    {
+      "id": 5,
+      "item": "PROTECTION COVER FOR URYU URW 80R",
+      "category": "Accessories",
+      "type": "Ratchet Tool Cover",
+      "length": "100mm",
+      "dia": "-",
+      "drive": "1/4",
+      "quantity": 60
+    },
+    {
+      "id": 6,
+      "item": "MULTIMETER",
+      "category": "Accessories",
+      "type": "Accessories",
+      "length": "FLUKE 179- ",
+      "dia": "-",
+      "drive": "-",
+      "quantity": 10
+    },
+    {
+      "id": 7,
+      "item": "MULTIMETER",
+      "category": "Accessories",
+      "type": "Accessories",
+      "length": "FLUKE 179- ",
+      "dia": "-",
+      "drive": "-",
+      "quantity": 10
+    },
+    {
+      "id": 8,
+      "item": "FUNNEL WITH FILTER",
+      "category": "Accessories",
+      "type": "Repair Miscellaneous Tools",
+      "length": "Plastic Type",
+      "dia": "-",
+      "drive": "-",
+      "quantity": 20
+    },
+    {
+      "id": 10,
+      "item": "PROTECTION COVER FOR URYU URW 80R",
+      "category": "Accessories",
+      "type": "Ratchet Tool Cover",
+      "length": "100mm",
+      "dia": "-",
+      "drive": "1/4",
+      "quantity": 60
+    }
+  ],
+  "requester": [
+    {
+      "id": 1,
+      "requestedon": "09-20-2021",
+      "requestdept": "Assembly",
+      "line": 60,
+      "requestby": "Harsha P",
+      "requestsec": "Process-Interior",
+      "ordertype": "Regular"
+    }
+  ]
+}
